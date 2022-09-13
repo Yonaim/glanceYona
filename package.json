@@ -1,0 +1,28 @@
+{
+  "name": "glanceyona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "node start.js",
+    "dev": "nodemon start.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonaim/glanceYona.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yonaim/glanceYona/issues"
+  },
+  "homepage": "https://github.com/Yonaim/glanceYona#readme",
+  "dependencies": {
+    "@slack/web-api": "^6.7.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}
